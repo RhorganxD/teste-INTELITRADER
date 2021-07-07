@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -67,24 +70,71 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="caixa.aspx" />
+    <Content Include="caixatest.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="home.aspx" />
+    <Content Include="images\contandomoedas.jpg" />
     <Content Include="images\intelitrader.svg" />
     <Content Include="images\pizza.png" />
+    <Content Include="jokenpo.aspx" />
+    <Content Include="pizzaresult.aspx" />
+    <Content Include="playjokenpo.aspx" />
     <Content Include="scripts\css\bootstrap.min.css" />
+    <Content Include="scripts\js\glm-ajax.js" />
     <Content Include="scripts\js\bootstrap.min.js" />
     <Content Include="scripts\js\jquery-3.6.0.min.js" />
     <Content Include="selectcategory.aspx" />
     <Content Include="selectpizza.aspx" />
+    <Content Include="selectyourpizza.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="caixa.aspx.cs">
+      <DependentUpon>caixa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="caixa.aspx.designer.cs">
+      <DependentUpon>caixa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="caixatest.aspx.cs">
+      <DependentUpon>caixatest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="caixatest.aspx.designer.cs">
+      <DependentUpon>caixatest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jokenpo.aspx.cs">
+      <DependentUpon>jokenpo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jokenpo.aspx.designer.cs">
+      <DependentUpon>jokenpo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pizzaresult.aspx.cs">
+      <DependentUpon>pizzaresult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pizzaresult.aspx.designer.cs">
+      <DependentUpon>pizzaresult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="playjokenpo.aspx.cs">
+      <DependentUpon>playjokenpo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="playjokenpo.aspx.designer.cs">
+      <DependentUpon>playjokenpo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="selectcategory.aspx.cs">
@@ -100,6 +150,13 @@
     </Compile>
     <Compile Include="selectpizza.aspx.designer.cs">
       <DependentUpon>selectpizza.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="selectyourpizza.aspx.cs">
+      <DependentUpon>selectyourpizza.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="selectyourpizza.aspx.designer.cs">
+      <DependentUpon>selectyourpizza.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>

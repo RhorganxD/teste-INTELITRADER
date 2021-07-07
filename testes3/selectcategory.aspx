@@ -6,7 +6,7 @@
             <div style="margin:70px"></div>
             <asp:Label runat="server" Font-Bold="true" Text="Selecione um teste para continuar" ForeColor="Black" Font-Names="Arial" Font-Size="X-Large"></asp:Label>
 
-            <div style="margin:40px"></div>
+            <div style="margin:130px"></div>
 
             <div class="row m-0">
                 <div class="col-md-4">
@@ -18,11 +18,19 @@
                 </div>
 
                 <div class="col-md-4">
-
+                    <asp:LinkButton runat="server" OnClick="Unnamed_Click1" Font-Underline="false" class="cardcss1">
+                        <div style="padding-top:35px">
+                           <p5 style="font-size:20px;font-weight:bold; color:black;font-family:'Comic Sans MS'">CAIXA ELETRÔNICO</p5>
+                        </div>  
+                    </asp:LinkButton>
                 </div>
 
                 <div class="col-md-4">
-
+                    <asp:LinkButton runat="server" OnClick="Unnamed_Click2" Font-Underline="false" class="cardcss2">
+                        <div style="padding-top:35px">
+                           <p5 style="font-size:20px;font-weight:bold; color:black;font-family:'Comic Sans MS'">PEDRA, PAPEL OU TESOURA</p5>
+                        </div>  
+                    </asp:LinkButton>
                 </div>
             </div>
         </div>

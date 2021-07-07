@@ -11,97 +11,124 @@ namespace testes3
 {
 
 
-    public partial class Site1
+    public partial class caixatest
     {
 
         /// <summary>
-        /// Controle head.
+        /// Controle noselec.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl noselec;
 
         /// <summary>
-        /// Controle form1.
+        /// Controle TbMoney.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.TextBox TbMoney;
 
         /// <summary>
-        /// Controle homelb.
+        /// Controle Div1.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton homelb;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Div1;
 
         /// <summary>
-        /// Controle selectpizza.
+        /// Controle errors.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton selectpizza;
+        protected global::System.Web.UI.WebControls.Label errors;
 
         /// <summary>
-        /// Controle caixa.
+        /// Controle qtyced.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton caixa;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl qtyced;
 
         /// <summary>
-        /// Controle jokenpo.
+        /// Controle withdrawlbtn.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton jokenpo;
+        protected global::System.Web.UI.WebControls.TextBox withdrawlbtn;
 
         /// <summary>
-        /// Controle HelloUser.
+        /// Controle width.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label HelloUser;
+        protected global::System.Web.UI.WebControls.Button width;
 
         /// <summary>
-        /// Controle LeftUser.
+        /// Controle deposit.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button LeftUser;
+        protected global::System.Web.UI.WebControls.TextBox deposit;
 
         /// <summary>
-        /// Controle menu.
+        /// Controle Ced100.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton menu;
+        protected global::System.Web.UI.WebControls.Label Ced100;
 
         /// <summary>
-        /// Controle ContentPlaceHolder1.
+        /// Controle Ced50.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.Label Ced50;
+
+        /// <summary>
+        /// Controle Ced20.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Ced20;
+
+        /// <summary>
+        /// Controle Ced10.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Ced10;
+
+        /// <summary>
+        /// Controle MyMoney.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label MyMoney;
     }
 }

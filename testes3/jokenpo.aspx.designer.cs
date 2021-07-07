@@ -11,7 +11,7 @@ namespace testes3
 {
 
 
-    public partial class selectpizza
+    public partial class jokenpo
     {
     }
 }

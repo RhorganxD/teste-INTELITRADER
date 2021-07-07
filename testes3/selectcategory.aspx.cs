@@ -11,7 +11,12 @@ namespace testes3
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            HttpCookie name = Request.Cookies["username"];
 
+            if (name == null)
+            {
+                Response.Redirect("/home.aspx");
+            }
         }
 
 
@@ -28,6 +33,16 @@ namespace testes3
             {
                 Response.Redirect("/selectpizza.aspx");
             }
+        }
+
+        protected void Unnamed_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("/caixa.aspx");
+        }
+
+        protected void Unnamed_Click2(object sender, EventArgs e)
+        {
+            Response.Redirect("/jokenpo.aspx");
         }
     }
 }
